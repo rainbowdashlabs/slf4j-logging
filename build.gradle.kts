@@ -21,7 +21,7 @@ license {
 }
 
 publishData {
-    useEldoNexusRepos(true)
+    useEldoNexusRepos()
     publishComponent("java")
 }
 

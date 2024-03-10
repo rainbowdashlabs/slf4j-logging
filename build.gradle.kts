@@ -27,8 +27,8 @@ publishData {
 
 dependencies {
     api("org.slf4j", "slf4j-api", "2.0.9")
-    api("org.apache.logging.log4j", "log4j-core", "2.23.0")
-    api("org.apache.logging.log4j", "log4j-slf4j-impl", "2.23.0")
+    api("org.apache.logging.log4j", "log4j-core", "2.23.1")
+    api("org.apache.logging.log4j", "log4j-slf4j-impl", "2.23.1")
     api("club.minnced", "discord-webhooks", "0.8.2")
     api("org.apache.commons", "commons-text", "1.11.0")
 }

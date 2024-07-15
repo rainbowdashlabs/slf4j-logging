@@ -29,7 +29,7 @@ dependencies {
     api("org.slf4j", "slf4j-api", "2.0.13")
     api("org.apache.logging.log4j", "log4j-core", "2.23.1")
     api("org.apache.logging.log4j", "log4j-slf4j-impl", "2.23.1")
-    api("club.minnced", "discord-webhooks", "0.8.2")
+    api("club.minnced", "discord-webhooks", "0.8.4")
     api("org.apache.commons", "commons-text", "1.12.0")
 }
 

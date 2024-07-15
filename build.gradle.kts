@@ -4,7 +4,7 @@ plugins {
     java
     `java-library`
     `maven-publish`
-    id("de.chojo.publishdata") version "1.2.5"
+    id("de.chojo.publishdata") version "1.4.0"
     id("org.cadixdev.licenser") version "0.6.1"
 }
 
@@ -26,11 +26,11 @@ publishData {
 }
 
 dependencies {
-    api("org.slf4j", "slf4j-api", "2.0.7")
-    api("org.apache.logging.log4j", "log4j-core", "2.20.0")
-    api("org.apache.logging.log4j", "log4j-slf4j-impl", "2.20.0")
+    api("org.slf4j", "slf4j-api", "2.0.13")
+    api("org.apache.logging.log4j", "log4j-core", "2.23.1")
+    api("org.apache.logging.log4j", "log4j-slf4j-impl", "2.23.1")
     api("club.minnced", "discord-webhooks", "0.8.4")
-    api("org.apache.commons", "commons-text", "1.10.0")
+    api("org.apache.commons", "commons-text", "1.12.0")
 }
 
 publishing {
